@@ -7,9 +7,11 @@
 
     <body>
 
-        <div>
+        <div style="display: inline-flex;">
             <div class="sharky_frame" style="width: 70%;">
-                <h1>welcom to sharky shen's homepage!</h1>
+                <!-- <h1>about me</h1> -->
+                <h3>about me</h3>
+                <img src="me.jpg" alt="me.jpg" class="sharky_img">
             </div>
 
             <div class="sharky_frame" style="width: 30%;">
@@ -22,7 +24,14 @@
         .sharky_frame{
             background-color: darkgray;
             color: darksalmon;
-            display: inline;
+            max-height: 300px;
+            
+            /* display: inline; */
+            /* display: inline-flex; */
+        }
+
+        .sharky_img{
+            block-size: 100%;
         }
     </style>
 
